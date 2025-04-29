@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar .nav-link.active {
+    background-color: white !important;
+    color: #a6192e !important;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.sidebar .nav-link {
+    color: white !important;
+    padding: 0.6rem 1rem;
+}
+
+.custom-btn {
+    background-color: #a6192e;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+.custom-btn:hover {
+    background-color: #8c1526;
+}
+
+.card {
+    border-radius: 16px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+}
+
+.chat-bubble-left {
+    background-color: #f0f0f0;
+    padding: 10px 14px;
+    border-radius: 14px;
+    margin-bottom: 8px;
+    max-width: 70%;
+    align-self: flex-start;
+}
+
+.chat-bubble-right {
+    background-color: #dcf8c6;
+    padding: 10px 14px;
+    border-radius: 14px;
+    margin-bottom: 8px;
+    max-width: 70%;
+    align-self: flex-end;
+    text-align: right;
+}
+
+#chat-window {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
